@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-
 import sys
-
 
 T = int(input().strip())
 for test in range(1, T + 1):
