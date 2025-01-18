@@ -1,8 +1,9 @@
-*
+# File generato da VS Code con C++
+/.vscode/settings.json
 
-!*/
-!.gitignore
-!*.c
-!*.cpp
-!*.py
+# Input e output di esempio
+*input*.txt
+*output*.txt
+
+# File o cartelle temporanee
 tmp
