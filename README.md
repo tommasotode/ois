@@ -19,8 +19,35 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
   </thead>
   <tbody>
     <tr>
-      <td>Practice</td>
-      <td colspan="3">:black_circle: Mancante</td>
+      <td rowspan="6">Practice</td>
+      <td><a href="https://training.olinfo.it/task/ois_funnygraph">funnygraph</a></td>
+      <td>:yellow_circle: 10/100</td>
+      <td>:yellow_circle: 10/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_police">police</a></td>
+      <td>:green_circle: 100/100</td>
+      <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_typewriter">typewriter</a></td>
+      <td>:green_circle: 100/100</td>
+      <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_waterslide">waterslide</a></td>
+      <td>:green_circle: 100/100</td>
+      <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_xorstanta">xorstanta</a></td>
+      <td>:green_circle: 100/100</td>
+      <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td>Totale</td>
+      <td>:large_blue_circle: 410</td>
+      <td>:large_blue_circle: 410</td>
     </tr>
     <tr>
       <td rowspan="7">Round 1</td>
