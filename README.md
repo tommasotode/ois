@@ -58,7 +58,7 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_barbarian">barbarian</a></td>
       <td>:red_circle: 0/100</td>
-      <td>:black_circle: Mancante</td>
+      <td>:yellow_circle: 40/100</td>
     </tr>
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_binarychess">binarychess</a></td>
@@ -68,7 +68,7 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_brackets2">brackets2</a></td>
       <td>:yellow_circle: 70/100</td>
-      <td>:yellow_circle: 70/100</td>
+      <td>:green_circle: 100/100</td>
     </tr>
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_excellent">excellent</a></td>
@@ -78,18 +78,18 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_pingpong">pingpong</a></td>
       <td>:yellow_circle: 30/100</td>
-      <td>:black_circle: Mancante</td>
+      <td>:yellow_circle: 20/100</td>
     </tr>
     <tr>
       <td>Totale</td>
       <td>:large_blue_circle: 300</td>
-      <td>:black_circle: Mancante</td>
+      <td>:large_blue_circle: 460</td>
     </tr>
     <tr>
       <td rowspan="5">Round 2</td>
       <td><a href="https://training.olinfo.it/task/ois_avg2">avg2</a></td>
-      <td>:yellow_circle: 10/100</td>
-      <td>:yellow_circle: 10/100</td>
+      <td>:yellow_circle: 35/100</td>
+      <td>:green_circle: 100/100</td>
     </tr>
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_farmula1">farmula1</a></td>
@@ -103,13 +103,13 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
     </tr>
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_tulips">tulips</a></td>
-      <td>:yellow_circle: 37/100</td>
-      <td>:yellow_circle: 37/100</td>
+      <td>:yellow_circle: 12/100</td>
+      <td>:yellow_circle: 12/100</td>
     </tr>
     <tr>
       <td>Totale</td>
       <td>:large_blue_circle: 247</td>
-      <td>:large_blue_circle: 247</td>
+      <td>:large_blue_circle: 312</td>
     </tr>
     <tr>
       <td rowspan="7">Round 3</td>
@@ -148,7 +148,7 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
       <td>:large_blue_circle: 515</td>
     </tr>
     <tr>
-      <td rowspan="5">Round 4</td>
+      <td rowspan="6">Round 4</td>
       <td><a href="https://training.olinfo.it/task/ois_cars">cars</a></td>
       <td>:green_circle: 100/100</td>
       <td>:green_circle: 100/100</td>
@@ -157,6 +157,11 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
       <td><a href="https://training.olinfo.it/task/ois_chess3">chess3</a></td>
       <td>:green_circle: 100/100</td>
       <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_grid">grid</a></td>
+      <td>:yellow_circle: 21/100</td>
+      <td>:yellow_circle: 21/100</td>
     </tr>
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_quadrilateral">quadrilateral</a></td>
@@ -171,7 +176,7 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
     <tr>
       <td>Totale</td>
       <td>:large_blue_circle: 321</td>
-      <td>:large_blue_circle: 400</td>
+      <td>:large_blue_circle: 421</td>
     </tr>
   </tbody>
 </table>

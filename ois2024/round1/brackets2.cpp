@@ -1,50 +1,41 @@
-#include <fstream>
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-string ans;
+int main() {
+  freopen("input.txt", "r", stdin);
+  freopen("output.txt", "w", stdout);
 
-bool brackets(int A[], int N, string s, int i, int curr)
-{
-	if (i == N)
-	{
-		if (curr == 0)
-		{
-			ans = s;
-			return true;
-		}
-		return false;
-	}
+  int N; cin >> N;
+  vector<int> A(N);
+  for (int i = 0; i < N; i++) cin >> A[i];
 
-	int a = A[i];
-	if (a <= curr)
-	{
-		if (brackets(A, N, s + string(a, ')'), i + 1, curr - a))
-			return true;
-	}
-	if (brackets(A, N, s + string(a, '('), i + 1, curr + a))
-		return true;
-	return false;
-}
+  vector<int> sums(N + 1);
+  partial_sum(A.begin(), A.end(), sums.begin() + 1);
 
-int main()
-{
-	ifstream cin("input.txt");
-	// ofstream cout("output.txt");
+  int M = sums[N];
+  vector<vector<char>> m(N + 1, vector<char>(M + 1));
+  m[N][0] = 'E';
 
-	int N;
-	cin >> N;
+  for (int i = N - 1; i >= 0; i--) {
+    for (int d = 0; d <= sums[i]; d++) {
+      m[i][d] = d >= A[i] && m[i + 1][d - A[i]] != '\0' ? ')'
+              : m[i + 1][d + A[i]] != '\0' ? '('
+              : '\0';
+    }
+  }
 
-	int A[N];
-	for (int i = 0; i < N; ++i)
-		cin >> A[i];
+  if (m[0][0] == '\0') {
+    cout << "-1" << endl;
+    return 0;
+  }
 
-	if (!brackets(A, N, "", 0, 0))
-		cout << "-1" << endl;
-	else
-		cout << ans << endl;
+  int d = 0;
+  for (int i = 0; i < N; i++) {
+    cout << string(A[i], m[i][d]);
+    d += A[i] * ((m[i][d] == '(') * 2 - 1);
+  }
 
-	return 0;
+  cout << endl;
+  return 0;
 }
