@@ -26,11 +26,10 @@ int main() {
     if (found.size() < 5) attempt1("klmno", found);
     if (found.size() < 5) attempt1("pqrst", found);
     if (found.size() < 5) attempt1("uvwxy", found);
-    if (found.size() < 5) attempt1("zzzzz", found);
 
     auto it = found.begin();
-    string answer(5, *it);
-    it++;
+    string answer(5, found.size() == 5 ? *it : 'z');
+    if (found.size() == 5) it++;
     for (; it != found.end(); it++) attempt2(*it, answer);
     cout << "! " << answer << endl;
   }
