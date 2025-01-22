@@ -102,36 +102,41 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
       <td>:large_blue_circle: 470</td>
     </tr>
     <tr>
-      <td rowspan="6">Round 2</td>
+      <td rowspan="7">Round 2</td>
       <td><a href="https://training.olinfo.it/task/ois_alienabc">alienabc</a></td>
       <td>:green_circle: 100/100</td>
-      <td>:black_circle: Mancante</td>
+      <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_homework">homework</a></td>
+      <td>:red_circle: 0/100</td>
+      <td>:red_circle: 0/100</td>
     </tr>
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_killer">killer</a></td>
       <td>:green_circle: 100/100</td>
-      <td>:black_circle: Mancante</td>
+      <td>:green_circle: 100/100</td>
     </tr>
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_progressiveart">progressiveart</a></td>
       <td>:yellow_circle: 80/100</td>
-      <td>:black_circle: Mancante</td>
+      <td>:green_circle: 100/100</td>
     </tr>
     </tr>
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_tetristiling">tetristiling</a></td>
       <td>:yellow_circle: 32.5/100</td>
-      <td>:black_circle: Mancante</td>
+      <td>:green_circle: 100/100</td>
     </tr>
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_zoo">zoo</a></td>
       <td>:yellow_circle: 24/100</td>
-      <td>:black_circle: Mancante</td>
+      <td>:yellow_circle: 24/100</td>
     </tr>
     <tr>
       <td>Totale</td>
       <td>:large_blue_circle: 336.5</td>
-      <td>:black_circle: Mancante</td>
+      <td>:large_blue_circle: 424</td>
     </tr>
     <tr>
       <td rowspan="6">Round 3</td>
@@ -167,6 +172,11 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
     <tr>
       <td>Round 4</td>
       <td colspan="3">:purple_circle: TODO: Giovedì 6 febbraio alle 14:30 :clock230:</td>
+    </tr>
+    <tr>
+      <td colspan="2">Totale round</td>
+      <td>:large_blue_circle: 1160.5</td>
+      <td>:large_blue_circle: 1309</td>
     </tr>
   </tbody>
 </table>
@@ -342,6 +352,11 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
       <td>Totale</td>
       <td>:large_blue_circle: 321</td>
       <td>:large_blue_circle: 421</td>
+    </tr>
+    <tr>
+      <td colspan="2">Totale round</td>
+      <td>:large_blue_circle: 1354</td>
+      <td>:large_blue_circle: 1708</td>
     </tr>
   </tbody>
 </table>
