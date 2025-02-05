@@ -14,8 +14,6 @@ if exist input.txt (
   exit /B 3
 )
 
-if "%1" == "c++" (set command=main) else set command=python main.py
-
 for /F "delims=" %%f in ('where g++') do (
   set diff=%%f
   set diff=!diff:~,-18!usr\bin\diff
@@ -24,9 +22,9 @@ for /F "delims=" %%f in ('where g++') do (
 for %%i in (*input*.txt) do (
   set input=%%i
   echo !input!:
-  ren !input! input.txt
 
-  python "%~dp0\test.py" "%command%" !input!
+  if "%1" == "c++" ( main < !input! > output.txt ) else python main.py < !input! > output.txt
+
   if !ERRORLEVEL! neq 0 (
     echo Il programma ha terminato con il codice di uscita !ERRORLEVEL!
     exit /B 1

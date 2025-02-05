@@ -16,13 +16,10 @@ fi
 
 for input in *input*.txt; do
   echo "$input:"
-  mv $input input.txt
 
-  if [ "$1" = "c++" ]; then ./main
-  else python main.py; fi
+  if [ "$1" = "c++" ]; then ./main < $input > output.txt
+  else python main.py < $input > output.txt; fi
   code=$?
-
-  mv input.txt $input
 
   if [ $code -ne 0 ]; then
     echo "Il programma ha terminato con il codice di uscita $code"
