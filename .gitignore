@@ -1,5 +1,5 @@
-# File generato da VS Code con C++
-/.vscode/settings.json
+# Configurazioni di avvio in uso localmente
+/.vscode/
 
 # Input e output di esempio
 *input*.txt

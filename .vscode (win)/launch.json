@@ -1,0 +1,50 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Esegui C++",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}\\main.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Compilazione"
+    },
+    {
+      "name": "Test C++",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": ".vscode\\test c++ < nul",
+      "preLaunchTask": "Compilazione"
+    },
+    {
+      "name": "Esegui Python",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Test Python",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": ".vscode\\test python < nul"
+    }
+  ]
+}
