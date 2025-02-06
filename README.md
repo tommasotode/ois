@@ -170,13 +170,50 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
       <td>:large_blue_circle: 415</td>
     </tr>
     <tr>
-      <td>Round 4</td>
-      <td colspan="3">:purple_circle: TODO: Giovedì 6 febbraio alle 14:30 :clock230:</td>
+      <td rowspan="8">Round 4</td>
+      <td><a href="https://training.olinfo.it/task/ois_frame">frame</a></td>
+      <td>:green_circle: 100/100</td>
+      <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_kmtogo">kmtogo</a></td>
+      <td>:green_circle: 100/100</td>
+      <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_lake2">lake2</a></td>
+      <td>:yellow_circle: 42/100</td>
+      <td>:yellow_circle: 42/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_maxdifference">maxdifference</a></td>
+      <td>:yellow_circle: 30/100</td>
+      <td>:yellow_circle: 30/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_pizza">pizza</a></td>
+      <td>:yellow_circle: 15/100</td>
+      <td>:yellow_circle: 15/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_subjects">subjects</a></td>
+      <td>:green_circle: 100/100</td>
+      <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_tulips2">tulips2</a></td>
+      <td>:green_circle: 100/100</td>
+      <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td>Totale</td>
+      <td>:large_blue_circle: 487</td>
+      <td>:large_blue_circle: 487</td>
     </tr>
     <tr>
       <td colspan="2">Totale round</td>
-      <td>:large_blue_circle: 1160.5</td>
-      <td>:large_blue_circle: 1309</td>
+      <td>:large_blue_circle: 1647.5</td>
+      <td>:large_blue_circle: 1796</td>
     </tr>
   </tbody>
 </table>
