@@ -1,5 +1,19 @@
 # Repository del team delle OIS[^ois] `babbo_natale()`[^nome]
 
+```c++
+              /**\
+              \__/
+*            .'  '.            *
+\\       /\.'  **  './\       //
+ \ \    /  \  /  \  /  \    / /
+  \  \./    \/    \/    \./  /
+   \*/#include<bits/stdc++.h>
+    /*barbestaccol*/#define\
+    babbo_natale for(;;)fork
+    int main()<%babbo_natale
+    (),printf("%p\n",main);}
+```
+
 Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e ad alcuni problemi di allenamento. Se non vuoi spoiler, non proseguire con l'esplorazione.
 
 ## [Edizione 2024/25](https://sites.google.com/aldini.istruzioneer.it/olimpiadi-informatica-squadre/campionati/202425-16-edizione)
@@ -211,9 +225,40 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
       <td>:large_blue_circle: 487</td>
     </tr>
     <tr>
-      <td colspan="2">Totale round</td>
-      <td>:large_blue_circle: 1647.5</td>
-      <td>:large_blue_circle: 1796</td>
+      <td rowspan="6">Finale</td>
+      <td><a href="https://training.olinfo.it/task/ois_acorn">acorn</a></td>
+      <td>:green_circle: 100/100</td>
+      <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_bouncing">bouncing</a></td>
+      <td>:red_circle: 0/100</td>
+      <td>:yellow_circle: 21/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_gcd-erasing">gcd-erasing</a></td>
+      <td>:green_circle: 100/100</td>
+      <td>:green_circle: 100/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_gnomesort">gnomesort</a></td>
+      <td>:yellow_circle: 32/100</td>
+      <td>:yellow_circle: 32/100</td>
+    </tr>
+    <tr>
+      <td><a href="https://training.olinfo.it/task/ois_rock-paper-scissors-tournament">rock-paper-scissors-tournament</a></td>
+      <td>:black_circle: Mancante</td>
+      <td>:black_circle: Mancante</td>
+    </tr>
+    <tr>
+      <td>Totale</td>
+      <td>:large_blue_circle: 289</td>
+      <td>:large_blue_circle: 310</td>
+    </tr>
+    <tr>
+      <td colspan="2">Totale (practice esclusa)</td>
+      <td>:large_blue_circle: 1936.5</td>
+      <td>:large_blue_circle: 2106</td>
     </tr>
   </tbody>
 </table>
@@ -391,7 +436,7 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
       <td>:large_blue_circle: 421</td>
     </tr>
     <tr>
-      <td colspan="2">Totale round</td>
+      <td colspan="2">Totale (practice esclusa)</td>
       <td>:large_blue_circle: 1354</td>
       <td>:large_blue_circle: 1708</td>
     </tr>
