@@ -247,8 +247,8 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
     </tr>
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_rock-paper-scissors-tournament">rock-paper-scissors-tournament</a></td>
-      <td>:black_circle: Mancante</td>
-      <td>:black_circle: Mancante</td>
+      <td>:yellow_circle: 57/100</td>
+      <td>:yellow_circle: 50/100</td>
     </tr>
     <tr>
       <td>Totale</td>
