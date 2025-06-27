@@ -253,7 +253,7 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
     <tr>
       <td>Totale</td>
       <td>:large_blue_circle: 289</td>
-      <td>:large_blue_circle: 310</td>
+      <td>:large_blue_circle: 303</td>
     </tr>
     <tr>
       <td colspan="2">Totale (practice esclusa)</td>
