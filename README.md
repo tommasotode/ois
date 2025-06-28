@@ -248,17 +248,17 @@ Questa repository è l'archivio delle nostre soluzioni ai problemi delle OIS e a
     <tr>
       <td><a href="https://training.olinfo.it/task/ois_rock-paper-scissors-tournament">rock-paper-scissors-tournament</a></td>
       <td>:yellow_circle: 57/100</td>
-      <td>:yellow_circle: 50/100</td>
+      <td>:yellow_circle: 63/100</td>
     </tr>
     <tr>
       <td>Totale</td>
       <td>:large_blue_circle: 289</td>
-      <td>:large_blue_circle: 303</td>
+      <td>:large_blue_circle: 316</td>
     </tr>
     <tr>
       <td colspan="2">Totale (practice esclusa)</td>
       <td>:large_blue_circle: 1936.5</td>
-      <td>:large_blue_circle: 2106</td>
+      <td>:large_blue_circle: 2112</td>
     </tr>
   </tbody>
 </table>

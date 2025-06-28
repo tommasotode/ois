@@ -41,21 +41,30 @@ S_neg, S_pos = [], []
 for n in S: (S_neg if n < 0 else S_pos).append(n)
 
 
-i, j = 0, 0
-while i < len(S_neg) and j < len(S_pos):
-    pos, neg = S_pos[j], S_neg[i]
-    d = -(pos + neg)
-    if pos > -neg: d += M
+if matchuguali > 0: T = 0
 
-    if d % 2 == 0:
-        T = max(T, d // 2)
-    elif M % 2 == 1:
-        T = max(T, (d + M) // 2)
+if N <= 1000 and M <= 1000:
+    for neg in S_neg:
+        for pos in S_pos:
+            d = -(neg + pos) % M
+            if d % 2 == 0: T = max(T, d // 2)
+            elif M % 2 == 1: T = max(T, (d + M) // 2)
+else:
+    i, j = 0, 0
+    while i < len(S_neg) and j < len(S_pos):
+        pos, neg = S_pos[j], S_neg[i]
+        d = -(pos + neg)
+        if pos > -neg: d += M
 
-    if i == len(S_neg) - 1: j += 1
-    elif j == len(S_pos) - 1: i += 1
-    elif S_pos[j + 1] - S_pos[j] < S_neg[i + 1] - S_neg[i]: j += 1
-    else: i += 1
+        if d % 2 == 0:
+            T = max(T, d // 2)
+        elif M % 2 == 1:
+            T = max(T, (d + M) // 2)
+
+        if i == len(S_neg) - 1: j += 1
+        elif j == len(S_pos) - 1: i += 1
+        elif S_pos[j + 1] - S_pos[j] < S_neg[i + 1] - S_neg[i]: j += 1
+        else: i += 1
 
 
 if M % 2 == 1: # dispari
